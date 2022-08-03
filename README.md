@@ -1,4 +1,4 @@
-# Tutorial: Install Debian on VMWare Fusion with a Apple Silicon (M1 Pro/Max) 
+# Install Debian on VMWare Fusion with a Apple Silicon (M1 Pro/Max) 
 
 Grab the ISO of Debian, drag/drop into VMWare, once VMWare boots GRUB, pick the older kernel in this case `5.10.0`. You'll notice you'll get errors if you try to run anything as root:
 
@@ -78,3 +78,5 @@ vmhgfs-fuse /mnt/hgfs fuse defaults,allow_other 0 0
 Now your install on the older kernel, should be complete! 
 
 <img width="1035" alt="Screen Shot 2022-08-03 at 2 52 00 PM" src="https://user-images.githubusercontent.com/20936398/182719049-826f2ae4-03d5-4e49-b361-d448fa25cc9d.png">
+
+Author: Montana Mendy
